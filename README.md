@@ -21,7 +21,7 @@ This repository contains the setup for installing Jenkins with Docker using the 
    ```bash
    docker build -t myjenkins-blueocean .
    ```
-    ![alt text](image.png)
+    ![Build](Images/image.png)
 4. Create a Docker network named 'jenkins':
    ```bash
    docker network create jenkins
@@ -37,11 +37,11 @@ This repository contains the setup for installing Jenkins with Docker using the 
      --volume jenkins-docker-certs:/certs/client:ro \
      myjenkins-blueocean
    ```
-    ![alt text](image-1.png)
+    ![Container](Images/image-1.png)
 
 6. Access Jenkins in your browser at [http://localhost:8080](http://localhost:8080).
 
-    ![alt text](image-2.png)
+    ![Localhost](Images/image-2.png)
 
 ### Usage
 - Open your browser and navigate to [http://localhost:8080](http://localhost:8080).
