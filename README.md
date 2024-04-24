@@ -107,4 +107,4 @@ This part guides you through setting up a Jenkins Freestyle build job that inclu
 - You may need to install additional packages or configure environment variables based on your specific needs.
 
 ### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
